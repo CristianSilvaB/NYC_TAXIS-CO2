@@ -90,22 +90,16 @@ El tercer sprint estará dirigido hacia el Data Anlysis y machine Learning, en e
 
 ## Fuentes de datos y recursos
 
-[Datasets By SoyHenry]  (https://drive.google.com/drive/folders/15GG63G6oZODqYjIcphwqQmJbXRvPi-jC)
-[NYC taxi and limousine commission]  (https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
-[Kaggle]  (https://www.kaggle.com/datasets/lobosi/c02-emission-by-countrys-grouth-and-population)
-[Zenodo]  (https://zenodo.org/record/3966543)
-[NYC OpenData]  (https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r)
-[Government of Canada]  (https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64#wb-auto-6)
+- [Datasets By SoyHenry] \(https://drive.google.com/drive/folders/15GG63G6oZODqYjIcphwqQmJbXRvPi-jC\)
+- [NYC taxi and limousine commission] \(https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page\)
+- [Kaggle] \(https://www.kaggle.com/datasets/lobosi/c02-emission-by-countrys-grouth-and-population\)
+- [Zenodo] \(https://zenodo.org/record/3966543\)
+- [NYC OpenData] \(https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r\)
+- [Government of Canada] \(https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64#wb-auto-6\)
 
 ## Contribuidores
 
-- [Cristian Leonardo Silva Barbosa] (https://www.linkedin.com/in/cristian-leonardo-silva-barbosa-4432a7280/) 
-  Data Engieneer
-- [Lautaro Gabriel Romero] (https://www.linkedin.com/in/lautaro-gabriel-romero-488803274/)
-   Data Science
-- [Pablo Nogueras] (https://www.linkedin.com/in/pablo-nogueras15/)
-   Data Analyst
-- [Santiago Tomás Kramer]  (https://www.linkedin.com/in/santiagokramer/)
-   Data Engieneer
-
-
+- [Cristian Leonardo Silva Barbosa] \(https://www.linkedin.com/in/cristian-leonardo-silva-barbosa-4432a7280/\) - Ingeniero de Datos
+- [Lautaro Gabriel Romero] \(https://www.linkedin.com/in/lautaro-gabriel-romero-488803274/\) - Ciencia de Datos
+- [Pablo Nogueras] \(https://www.linkedin.com/in/pablo-nogueras15/\) - Analista de Datos
+- [Santiago Tomás Kramer] \(https://www.linkedin.com/in/santiagokramer/\) - Ingeniero de Datos
