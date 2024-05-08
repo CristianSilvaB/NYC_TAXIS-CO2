@@ -55,6 +55,11 @@ Además, se generará documentación detallada que incluirá:
 ## Metodología
 Para el desarrollo de este proyecto, se está utilizando la metodología ágil Scrum, la cual es comúnmente empleada en proyectos tecnológicos. Esta metodología implica dividir el proyecto en etapas llamadas sprints, que en este caso se desarrollan semanalmente. En las presentaciones de los sprints participan el equipo de trabajo, el Scrum Master y el Product Owner. Del mismo modo, durante el desarrollo de cada sprint, se lleva a cabo una reunión diaria (Daily Scrum meeting) con el fin de definir las tareas a realizar.
 
+### Diagrama de Gantt
+
+La organización cronologica de las tareas propuestas se puede visualizar en este [Diagrama de Gantt](https://docs.google.com/spreadsheets/d/1RcMfXU5Alj9_EPNMWe0TDVPisHM4hGoK/edit?usp=sharing&ouid=108410291650069911748&rtpof=true&sd=true)
+
+
 ### Sprint 1
 A partir de la información entregada se debe realizar un anlálisis del proyecto y una propuesta de desarrollo del mismo que incluya una solución y las herramientas necesarias para desarrollarlo. 
 
@@ -70,7 +75,7 @@ En esta etapa debe incluir un Repositorio de Github, diseño detalllado del proy
 La siguiente fase del proyecto hará enfasis en el data engieneering. Consistirá desarrollar la estructura del proyecto,así mismo, se utilizarán herramientas de Cloud para el trabajo colaborativo. También se realizará un analisis preliminar de una muestra de datos y una prueba de concepto del Machine Learning. 
 Con el fin de revisar y evaluar la estructura y funcionamientos futuros del proyecto.
 
-Para este sprint se deberá desarrollar el ETL completo, La estructura de datos implementada, Pipeline de ETl Para este sprint se deberá desarrollar el ETL completo, La estructura de datos implementada, Pipeline de ETl automatizado, Diseño del modelo ER, Pipelines para alimentar el DW, Data warehouse, Automatización, Validación de los datos, documentación (Diagrama ER, Diccionario de datos, Workflow ), Análisis de datos de muestra, MVP de Machine Learning) 
+Para este sprint se deberá desarrollar el ETL completo, La estructura de datos implementada, Pipeline de ETl Para este sprint se deberá desarrollar el ETL completo, La estructura de datos implementada, Pipeline de ETl automatizado, Diseño del modelo ER, Pipelines para alimentar el DW, Data warehouse, Automatización, Validación de los datos, documentación (Diagrama ER, Diccionario de datos, Workflow ), Análisis de datos de muestra, MVP de Machine Learning.
 
 #### Entregables
 
