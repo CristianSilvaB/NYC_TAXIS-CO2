@@ -100,24 +100,23 @@ El tercer sprint estará dirigido hacia el Data Anlysis y machine Learning, en e
 
 ## Tecnologías
 
+### Lenguajes Y librerias 
 ![Python](https://img.shields.io/badge/Python-black?style=flat&logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-black?style=flat&logo=pandas)
 ![Numpy](https://img.shields.io/badge/Numpy-black?style=flat&logo=Numpy)
 ![Pyarrow](https://img.shields.io/badge/Pyarrow-black?style=flat&logo=python&logoColor=white)
 ![ScikitLearn](https://img.shields.io/badge/ScikitLearn-black?style=flat&logo=Scikit-Learn)
-![XGBoost](https://img.shields.io/badge/XGBoost-black?style=flat&logo=scikit-learn)
 ![Streamlit](https://img.shields.io/badge/Streamlit-black?style=flat&logo=streamlit)
-![FastAPI](https://img.shields.io/badge/FastAPI-black?style=flat&logo=fastapi)
-![PyAthena](https://img.shields.io/badge/PyAthena-black?style=flat&logo=python&logoColor=purple)
-![Boto3](https://img.shields.io/badge/Boto3-black?style=flat&logo=AWS%20Organizations)
 ![S3FS](https://img.shields.io/badge/S3FS-black?style=flat&logo=AMAZON%20S3&logoColor=white)
-![Tkinter](https://img.shields.io/badge/Tkinter-black?style=flat&logo=python&logoColor=white)
-![Pyinstaller](https://img.shields.io/badge/Pyinstaller-black?style=flat&logo=python&logoColor=white)
+![S3FS](https://img.shields.io/badge/S3FS-black?style=flat&logo=AMAZON%20S3&logoColor=white)
 ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-black?style=flat&logo=coffeescript)
 ![Plotly](https://img.shields.io/badge/Plotly-black?style=flat&logo=plotly)
-![Pydantic](https://img.shields.io/badge/Pydantic-black?style=flat&logo=pydantic)
-![Joblib](https://img.shields.io/badge/Joblib-black?style=flat&logo=Python)
+![SeaBorn](https://img.shields.io/badge/Seaborn-black?style=flat&logo=Seaborn)
+![Geopandas](https://img.shields.io/badge/Geopandas-black?style=flat&logo=Geopandas)
+### Visualisacion 
 ![Power BI](https://img.shields.io/badge/Power%20BI-black?style=flat&logo=Power%20bi)
+
+### Cloud 
 ![Amazon S3](https://img.shields.io/badge/AWS%20S3-black?style=flat&logo=Amazon%20S3)
 ![AWS Athena](https://img.shields.io/badge/AWS%20Athena-black?style=flat&logo=Amazon%20AWS&logoColor=purple)
 ![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-black?style=flat&logo=AWS%20lambda)
