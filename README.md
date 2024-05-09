@@ -1,3 +1,4 @@
+
 # Taxis NYC y Emisión de Carbono
 
 
@@ -108,3 +109,5 @@ El tercer sprint estará dirigido hacia el Data Anlysis y machine Learning, en e
 - [Lautaro Gabriel Romero](https://www.linkedin.com/in/lautaro-gabriel-romero-488803274/) - Ciencia de Datos
 - [Pablo Nogueras](https://www.linkedin.com/in/pablo-nogueras15/) - Analista de Datos
 - [Santiago Tomás Kramer](https://www.linkedin.com/in/santiagokramer/) - Ingeniero de Datos
+
+
