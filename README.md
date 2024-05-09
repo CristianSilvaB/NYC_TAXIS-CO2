@@ -60,6 +60,9 @@ Para el desarrollo de este proyecto, se está utilizando la metodología ágil S
 
 La organización cronologica de las tareas propuestas se puede visualizar en este [Diagrama de Gantt](https://docs.google.com/spreadsheets/d/1RcMfXU5Alj9_EPNMWe0TDVPisHM4hGoK/edit?usp=sharing&ouid=108410291650069911748&rtpof=true&sd=true)
 
+### Ciclo del dato
+
+<img src="./Img/ciclo_dato.jpg" alt="Ciclo del dato" width="50%" height="50%"></img>
 
 ### Sprint 1
 A partir de la información entregada se debe realizar un anlálisis del proyecto y una propuesta de desarrollo del mismo que incluya una solución y las herramientas necesarias para desarrollarlo. 
