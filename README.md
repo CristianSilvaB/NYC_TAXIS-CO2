@@ -25,7 +25,9 @@ Una compañía interesada en invertir en el transporte de pasajeros en automóvi
 ### Bienvenido a DST Group
 
 
-<center><img src="./Img/DSTgroup.png" alt="DSTgrouplogo" width="50%" height="50%"></img></center>
+<p align="center">
+<img src="./Img/DSTgroup.png" alt="DSTgrouplogo" width="50%" height="50%"></img>
+</p>
 
 En DST Group, estamos dedicados a ofrecer soluciones innovadoras en el mundo de la tecnología de la información. Especializados en ciencia de datos, ingeniería de datos y análisis de datos, nuestro equipo multidisciplinario trabaja incansablemente para transformar datos en información valiosa que impulse el éxito de nuestros clientes.
 
@@ -91,7 +93,7 @@ La organización cronologica de las tareas propuestas se puede visualizar en est
 
 ### Ciclo del dato
 
-<img src="./Img/ciclo_dato.png" alt="Ciclo del dato" width="50%" height="50%"></img>
+<img src="./Img/ciclo_dato.png" alt="Ciclo del dato" width="70%" height="70%"></img>
 
 ### Sprint 1
 A partir de la información entregada se debe realizar un anlálisis del proyecto y una propuesta de desarrollo del mismo que incluya una solución y las herramientas necesarias para desarrollarlo. 
