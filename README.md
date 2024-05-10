@@ -4,11 +4,40 @@
 
 ## Índice
 - [Introducción](#introducción)
+- [¿Quienes Somos?](#quienes-somos)
+- [Objetivos](#objetivo-principal)
+- [Alcance](#alcance)
+- [Metodologia](#metodología)
+- [KPI´s](#kpis)
+- [Tegnologias](#tecnologías)
+- [Fuentes de Datos Y Recursos](#fuentes-de-datos-y-recursos)
+- [Colaboradores](#colaboradores)
+
+
 
 ## Introducción
 Los servicios de taxis y transporte compartido representan una alternativa moderna a los medios de transporte público tradicionales. Estos vehículos generan una gran cantidad de datos que pueden utilizarse para mejorar la eficiencia del servicio y abordar problemas globales, como el cambio climático. El aumento de la temperatura del planeta y la contaminación del aire debido a los gases residuales de los vehículos que utilizan combustibles fósiles pueden tener efectos letales en el futuro cercano. 
 
 Una compañía interesada en invertir en el transporte de pasajeros en automóviles en la ciudad de Nueva York debe evaluar la relación entre este medio de transporte y la contaminación atmosférica y auditiva, considerando la viabilidad de implementar vehículos eléctricos en su flota mediante un análisis preliminar del movimiento de los taxis y otros datos relevantes, como la calidad del aire y las correlaciones climáticas.
+
+## ¿Quienes Somos?
+
+### Bienvenido a DST Group
+
+
+<center><img src="./Img/DSTgroup.png" alt="DSTgrouplogo" width="50%" height="50%"></img></center>
+
+En DST Group, estamos dedicados a ofrecer soluciones innovadoras en el mundo de la tecnología de la información. Especializados en ciencia de datos, ingeniería de datos y análisis de datos, nuestro equipo multidisciplinario trabaja incansablemente para transformar datos en información valiosa que impulse el éxito de nuestros clientes.
+
+Desde nuestra fundación, nos hemos comprometido a proporcionar servicios de la más alta calidad, respaldados por un profundo conocimiento técnico y una pasión por la excelencia. Nos enorgullece nuestra capacidad para adaptarnos rápidamente a las necesidades cambiantes del mercado y para ofrecer soluciones personalizadas que impulsen el crecimiento y la innovación.
+
+Nuestro equipo está formado por expertos en ciencia de datos, ingenieros de datos y analistas de datos altamente cualificados, que trabajan en estrecha colaboración con nuestros clientes para comprender sus objetivos y desafíos únicos. Utilizando las últimas tecnologías y metodologías, desarrollamos soluciones a medida que permiten a nuestros clientes tomar decisiones informadas y alcanzar nuevos niveles de éxito.
+
+En DST Group, creemos en el poder de los datos para transformar negocios y cambiar el mundo. Estamos comprometidos a ser líderes en nuestro campo, impulsando la innovación y entregando resultados excepcionales en cada proyecto que emprendemos.
+
+Únete a nosotros en el viaje hacia el futuro de la tecnología de la información. Juntos, podemos convertir datos en conocimiento y hacer posible lo imposible.
+
+¡Bienvenido a DST Group, donde la excelencia técnica se encuentra con la pasión por la innovación!
 
 ## Objetivo Principal
 
@@ -26,7 +55,7 @@ Realizar un análisis de datos completo y detallado para acompañar la toma de d
 
 ## Alcance
 
-Este proyecto se llevará a cabo durante un período de 4 semanas y se centrará en tres áreas clave: **Data Engineering**, **Data Analytics** y **Machine Learning**.
+Este proyecto se llevará a cabo durante un período de 3 semanas y se centrará en tres áreas clave: **Data Engineering**, **Data Analytics** y **Machine Learning**.
 
 En la fase de **Data Engineering**, se realizarán las siguientes actividades:
 - Implementación de ETL (Extract, Transform, Load)
@@ -62,7 +91,7 @@ La organización cronologica de las tareas propuestas se puede visualizar en est
 
 ### Ciclo del dato
 
-<img src="./Img/ciclo_dato.jpg" alt="Ciclo del dato" width="50%" height="50%"></img>
+<img src="./Img/ciclo_dato.png" alt="Ciclo del dato" width="50%" height="50%"></img>
 
 ### Sprint 1
 A partir de la información entregada se debe realizar un anlálisis del proyecto y una propuesta de desarrollo del mismo que incluya una solución y las herramientas necesarias para desarrollarlo. 
@@ -94,13 +123,13 @@ El tercer sprint estará dirigido hacia el Data Anlysis y machine Learning, en e
 
 ## KPI's
 
-- Reducir un 20% las emisiones de CO2  de los taxis por cada Millas recorridas
-- Reducir la depreciaicin Anual de los vehiculos un 15%
-- Aumentar en un 5 % las millas recorridas con respecto al semestre anterior.
+- Reducir un 20% la emisiones de CO2 de los taxis por cada Milla recorrida
+- Aumentar un 5% las millas recorridas con respecto al semestre anterior
+- Reducir un 6% la contaminación Sonora
 
 ## Tecnologías
 
-### Lenguajes Y librerias 
+### Lenguajes Y Librerias 
 ![Python](https://img.shields.io/badge/Python-black?style=flat&logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-black?style=flat&logo=pandas)
 ![Numpy](https://img.shields.io/badge/Numpy-black?style=flat&logo=Numpy)
@@ -113,7 +142,7 @@ El tercer sprint estará dirigido hacia el Data Anlysis y machine Learning, en e
 ![Plotly](https://img.shields.io/badge/Plotly-black?style=flat&logo=plotly)
 ![SeaBorn](https://img.shields.io/badge/Seaborn-black?style=flat&logo=Seaborn)
 ![Geopandas](https://img.shields.io/badge/Geopandas-black?style=flat&logo=Geopandas)
-### Visualisacion 
+### Visualización 
 ![Power BI](https://img.shields.io/badge/Power%20BI-black?style=flat&logo=Power%20bi)
 
 ### Cloud 
@@ -137,7 +166,7 @@ El tercer sprint estará dirigido hacia el Data Anlysis y machine Learning, en e
 - [NYC OpenData](https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r)
 - [Government of Canada](https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64#wb-auto-6)
 
-## Contribuidores
+## Colaboradores
 
 - [Cristian Leonardo Silva Barbosa](https://www.linkedin.com/in/cristian-leonardo-silva-barbosa-4432a7280/) - Ingeniero de Datos
 - [Lautaro Gabriel Romero](https://www.linkedin.com/in/lautaro-gabriel-romero-488803274/) - Ciencia de Datos
