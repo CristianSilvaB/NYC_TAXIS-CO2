@@ -1,0 +1,28 @@
+name: S3 Sync Action
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  Sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Connect to AWS
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-session-name: awssyncsession
+          roe-to-assume: ${{ secrets.AWS_IAM_ROLE}}
+          aws-region: ${{ secrets.AWS_REGION}}
+
+      - name: sync bucket
+        run: aws s3 sync .Data/Normalized/ s3//${{ secrets.AWS_BUCKET_NAME }} --delete
