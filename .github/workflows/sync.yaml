@@ -18,12 +18,17 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Connect to AWS
+        id: aws-credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
           role-session-name: awssyncsession
           role-to-assume: ${{ secrets.AWS_IAM_ROLE }}
           aws-region: ${{ secrets.AWS_REGION }}
 
+      - name: Set AWS Credentials
+        run: echo "AWS_ACCESS_KEY_ID=${{ steps.aws-credentials.outputs.access_key_id }}" >> $GITHUB_ENV && echo "AWS_SECRET_ACCESS_KEY=${{ steps.aws-credentials.outputs.secret_access_key }}" >> $GITHUB_ENV
+
       - name: Sync Bucket
         run: aws s3 sync .Data/Normalized/ s3://${{ secrets.AWS_BUCKET_NAME }} --delete
+
 
