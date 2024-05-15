@@ -26,9 +26,12 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Set AWS Credentials
-        run: echo "AWS_ACCESS_KEY_ID=${{ steps.aws-credentials.outputs.access_key_id }}" >> $GITHUB_ENV && echo "AWS_SECRET_ACCESS_KEY=${{ steps.aws-credentials.outputs.secret_access_key }}" >> $GITHUB_ENV
+        run: |
+          echo "AWS_ACCESS_KEY_ID=${{ steps.aws-credentials.outputs.access_key_id }}" >> $GITHUB_ENV
+          echo "AWS_SECRET_ACCESS_KEY=${{ steps.aws-credentials.outputs.secret_access_key }}" >> $GITHUB_ENV
 
       - name: Sync Bucket
-        run: aws s3 sync Data/ s3://${{ secrets.AWS_BUCKET_NAME }} --delete
+        run: aws s3 sync Data/Normalized/ s3://${{ secrets.AWS_BUCKET_NAME }} --delete
+
 
 
