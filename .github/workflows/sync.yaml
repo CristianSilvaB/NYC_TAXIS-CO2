@@ -21,8 +21,9 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v1
         with:
           role-session-name: awssyncsession
-          roe-to-assume: ${{ secrets.AWS_IAM_ROLE}}
-          aws-region: ${{ secrets.AWS_REGION}}
+          role-to-assume: ${{ secrets.AWS_IAM_ROLE }}
+          aws-region: ${{ secrets.AWS_REGION }}
 
-      - name: sync bucket
-        run: aws s3 sync .Data/Normalized/ s3//${{ secrets.AWS_BUCKET_NAME }} --delete
+      - name: Sync Bucket
+        run: aws s3 sync .Data/Normalized/ s3://${{ secrets.AWS_BUCKET_NAME }} --delete
+
