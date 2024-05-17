@@ -9,7 +9,7 @@
 - [Alcance](#alcance)
 - [Metodologia](#metodología)
 - [KPI´s](#kpis)
-- [Tegnologias](#tecnologías)
+- [Tecnologias](#tecnologías)
 - [Fuentes de Datos Y Recursos](#fuentes-de-datos-y-recursos)
 - [Colaboradores](#colaboradores)
 
