@@ -125,9 +125,9 @@ El tercer sprint estará dirigido hacia el Data Anlysis y machine Learning, en e
 
 ## KPI's
 
-- Reducir un 10% la emisiones de CO2 de los taxis por cada Milla recorrida en un intervalo de tiempo de 6 meses
-- Aumentar un 2% la cantidad de viajes con respecto al mes anterior
-- Reducir un 6% la contaminación Sonora
+- Reducir un 10% la emisiones de CO2 de los taxis por cada milla recorrida.
+- Aumentar un 2% la cantidad de viajes con respecto al mes anterior.
+- Reducir un 6% la contaminación sonora respecto al año anterior.
 
 ## Tecnologías
 
