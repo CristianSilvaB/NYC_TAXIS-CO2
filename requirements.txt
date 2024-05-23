@@ -1,5 +1,3 @@
-_libgcc_mutex=0.1=main
-_openmp_mutex=5.1=1_gnu
 asttokens=2.4.1=pyhd8ed1ab_0
 backcall=0.2.0=pyh9f0ad1d_0
 blas=1.0=mkl
