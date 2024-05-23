@@ -1,10 +1,14 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import pickle
 from datetime import datetime
 
-# Cargar el modelo entrenado
-model = joblib.load('./ML/taxi_demand_model.joblib')
+# Ruta al archivo del modelo
+model_path = './ML/taxi_demand_model.pkl'
+
+# Cargar el modelo usando pickle
+with open(model_path, 'rb') as file:
+    model = pickle.load(file)
 
 # Definir la función predict_demand
 def predict_demand(hora_inicio, dia_semana, pickup_borough, servicio):
