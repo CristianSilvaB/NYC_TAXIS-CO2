@@ -46,7 +46,7 @@ servicio_val = servicio_map[servicio]
 # Botón de predicción
 if st.button("Predecir Demanda"):
     predicted_demand = predict_demand(hora_inicio, dia_semana_val, pickup_borough_val, servicio_val)
-    st.write(f"La demanda predicha de taxis es: {predicted_demand}")
+    st.write(f"La demanda predicha de taxis es: {predicted_demand} solicitud/es de viaje")
 
 # Ejecución del script de Streamlit desde la línea de comandos
 # streamlit run app.py
