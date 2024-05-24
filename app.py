@@ -4,7 +4,7 @@ import pickle
 from datetime import datetime
 
 # Ruta al archivo del modelo
-model_path = './ML/taxi_demand_model.pkl'
+model_path = './Local/ML/taxi_demand_model.pkl'
 
 # Cargar el modelo usando pickle
 with open(model_path, 'rb') as file:

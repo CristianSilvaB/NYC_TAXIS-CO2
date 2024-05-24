@@ -27,7 +27,7 @@ wait = WebDriverWait(driver, 10)
 
 #IMPORTANTE!!!!
 # Si lo vas a ejecutar pone la ruta donde queres que se carguen los archivos.
-carpeta_destino = "C:\\Users\\pablo\\Desktop\\DATA SCIENCE HENRY\\PROYECTOS\\NYC_TAXIS-CO2\\Data\\TLC_scraping"
+carpeta_destino = "..\Data\TLC_scraping"
 
 # Crea la carpeta si no existe 
 if not os.path.exists(carpeta_destino):
