@@ -3,6 +3,7 @@ import pandas as pd
 import pickle
 from datetime import datetime
 import os
+import streamlit.components.v1 as components
 
 # Ruta al archivo del modelo
 model_path = "1. Local/ML/taxi_demand_model.pkl"
@@ -33,18 +34,21 @@ else:
             st.error(f"Error en la predicción: {e}")
             return None
 
+
     # Configurar el título de la aplicación
     st.title("Predicción de Demanda de Taxis en NYC")
 
+    st.subheader("Ingrese los detalles para la predicción")
+
     # Configurar los controles de entrada
-    hora_inicio = st.slider("Hora de inicio (0-23):", 0, 23, 10)
+    hora_inicio = st.slider("Hora de inicio (0-23):", 0, 23, 10, help="Selecciona la hora del día en formato 24 horas.")
     dia_semana = st.selectbox("Día de la semana:", 
                               ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"],
-                              index=0)
+                              index=0, help="Selecciona el día de la semana.")
     pickup_borough = st.selectbox("Distrito de recogida:", 
                                   ["Manhattan", "Queens", "Brooklyn", "Staten Island", "EWR"],
-                                  index=0)
-    servicio = st.selectbox("Tipo de servicio:", ["Green", "Yellow"], index=0)
+                                  index=0, help="Selecciona el distrito donde se realizará la recogida.")
+    servicio = st.selectbox("Tipo de servicio:", ["Green", "Yellow"], index=0, help="Selecciona el tipo de taxi.")
 
     # Mapear entradas de texto a valores numéricos
     dias_semana_map = {"Lunes": 0, "Martes": 1, "Miércoles": 2, "Jueves": 3, "Viernes": 4, "Sábado": 5, "Domingo": 6}
@@ -57,11 +61,21 @@ else:
 
     # Botón de predicción
     if st.button("Predecir Demanda"):
+        st.info("Generando predicción, por favor espera...")
         predicted_demand = predict_demand(hora_inicio, dia_semana_val, pickup_borough_val, servicio_val)
         if predicted_demand is not None:
-            st.write(f"La demanda predicha de taxis es: {predicted_demand} solicitud/es de viaje")
+            st.success(f"La demanda predicha de taxis es: {predicted_demand} solicitud/es de viaje")
+        else:
+            st.error("No se pudo generar la predicción. Inténtalo de nuevo.")
+    
+
+    # Incrustar el informe de Power BI
+    st.subheader("Visualización de Power BI")
+    powerbi_url = "https://app.powerbi.com/view?r=eyJrIjoiZGNmMzIwODQtYzY1Ni00MjhhLTkzOTQtZTFjNGVhMzcyNjg3IiwidCI6IjdlOTE2OGM3LWZiYmYtNDQ3OS1iODBlLWYzMmI2ODM4ZmJkZCIsImMiOjR9"  
+    components.iframe(powerbi_url, width=800, height=600)
 
 # Ejecución del script de Streamlit desde la línea de comandos
 # streamlit run app.py
+
 
 
