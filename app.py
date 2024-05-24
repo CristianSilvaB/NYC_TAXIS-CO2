@@ -5,7 +5,7 @@ from datetime import datetime
 import os
 
 # Ruta al archivo del modelo
-model_path = '../Local/ML/taxi_demand_model.pkl'
+model_path = "/1.Local/ML/taxi_demand_model.pkl"
 
 # Verificar si el archivo del modelo existe
 if not os.path.exists(model_path):
