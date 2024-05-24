@@ -1,6 +1,6 @@
 import streamlit as st
 
-power_bi_embed_url = "YOUR_POWER_BI_EMBED_URL_HERE"
+power_bi_embed_url = "https://app.powerbi.com/reportEmbed?reportId=dcc01800-b02e-4efc-9b26-629c4e142bf4&autoAuth=true&ctid=7e9168c7-fbbf-4479-b80e-f32b6838fbdd"
 
 html_code = f"""
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
